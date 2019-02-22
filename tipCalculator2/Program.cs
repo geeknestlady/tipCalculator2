@@ -32,6 +32,7 @@ namespace tipCalculator2
             }
             decimal tipAmount = tipPercentage * totalBill / 100;
             tipAmount = Math.Round(tipAmount, 2);
+            Console.WriteLine($"You're tip will be ${tipAmount} and your total bill is ${totalBill}.");
             Console.ReadLine();
 
 
